@@ -1,12 +1,6 @@
-# Thinkspace v2.1
+# Blog Data
 
-Thinkspace is just another minimalist Jekyll theme which is best suit for technical writing, but not limited to. Good for personal blog type too or project-based blog. Disqus comment is included.
-
-[**Live Demo**](http://heiswayi.github.io/thinkspace/)
-
-### Screenshot
-
-![Thinkspace Screenshot](http://i.imgur.com/IMQDB9e.png)
+This is my new blog, using **Jekyll** (with a minimalist Jekyll theme called **Thinkspace**) and hosted at **Github Pages**. The purpose is to share my study activities and material about programming (PHP, Python, JS, GO and Elixir), Data Analysis and some thoughts about Agile Project Management. 
 
 ### License
 
