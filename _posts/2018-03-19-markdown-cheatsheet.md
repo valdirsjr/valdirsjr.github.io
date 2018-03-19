@@ -24,6 +24,7 @@ Let's go:
 1. Online Makedown editor: [https://stackedit.io/](https://stackedit.io/)
 2. This cheatsheet below:
 
+<div class="divider"></div>
 
 # Markdown Cheatsheet
 
