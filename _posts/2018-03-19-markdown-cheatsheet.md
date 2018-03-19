@@ -1,10 +1,28 @@
 ---
 layout: post
-title: "Markdown Cheatsheet Demo"
+title: "Jekyll and Markdown Cheatsheet"
 comments: true
-description: "Markdown Cheatsheet Demo..."
+description: "Jekyll and Markdown Cheatsheet"
 keywords: "markdown, typography components, dummy content"
 ---
+## Let's get started
+
+I'm starting my new blog now, and unlike applications to manage blogs, CMS etc, I didn't want anything too complicated to just write random stuff. I found a good solution when I read about "static site generators", like [https://jekyllrb.com/](Jekyll), which I found very interesting. More than that, Jekyll has an absurdly easy integration with [https://pages.github.com/](Github Pages). 
+
+The pages (or blog posts) can be written using simple Makedown, which is pretty cool.
+
+Let's go:
+
+### Tutorials about Github Pages and Jekyll:
+
+1. [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+
+2. [http://jordankobellarz.github.io/jekyll/github/2015/01/14/como-criar-em-10-minutos-um-blog-gratis-com-jekyll-e-github-pages.html](http://jordankobellarz.github.io/jekyll/github/2015/01/14/como-criar-em-10-minutos-um-blog-gratis-com-jekyll-e-github-pages.html)
+ 
+### Easy way to start learning about Markdown:
+
+1. Online Makedown editor: [https://stackedit.io/](https://stackedit.io/)
+2. This cheatsheet below:
 
 ## Typography Elements in One
 
@@ -128,11 +146,11 @@ ___
 
 ### YouTube Embedded Iframe
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/n1a7o44WxNo" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/watch?v=hTWKbfoikeg" frameborder="0" allowfullscreen></iframe></div>
 
 ### Image
 
-![Minion](http://octodex.github.com/images/minion.png)
+![Github](http://s2.glbimg.com/nBsW9iMGHEMYJtADdQ9JdWXGP3k=/695x0/s.glbimg.com/po/tt2/f/original/2015/02/11/github-logo.jpg)
 
 ---
 Footnote:
