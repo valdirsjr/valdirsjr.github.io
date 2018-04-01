@@ -70,29 +70,62 @@ This tool helps a lot for the wine configuration. First, it's important to check
 curl --silent --show-error \
 https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks --stderr - \
 | grep ^WINETRICKS_VERSION | cut -d '=' -f 2
+```
 
+```sh
 # Check the currently installed version
 winetricks --version
+```
 
+```sh
 # Remove winetricks (if you have a older version)
 sudo apt-get remove winetricks
+```
 
+```sh
 # Install the latest version
 wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 chmod +x winetricks 
 sudo mv -v winetricks /usr/local/bin
 ```
 
+To run winetricks
+
+```sh
+# Run winetricks
+winetricks
+```
+
+First, check "Select the default wineprefix" to use the currently config:
+
+![wt_1](https://valdirsjr.github.io/assets/images/wt1.png)
+
+After, it's necessary check "Install a Windows DLL" to install two important components: `ie8` and `d3dx9`. Also, may be necessary install `corefonts` on "Install a font" option:
+
+![wt_2](https://valdirsjr.github.io/assets/images/wt2.png)
+
 
 ### Install Battle.net
 
+The easiest part is install Blizzard Battle.net and Hearthstone. Just download the Battle.net app and run by clicking on `exe` file. Follow instructions like in a Windows install, and no more problems after that. 
+
+![screen_1](https://valdirsjr.github.io/assets/images/screen1.png)
+
+![screen_2](https://valdirsjr.github.io/assets/images/screen2.png)
 
 
+### Notes
 
+In some websites I read about options to add in the command line to run Hearthstone, but wasn't necessary for me. 
+
+```
+-force-d3d9
+-dx9
+```
 
 ---
 References:
 
-[^1]: [https://www.maketecheasier.com/play-hearthstone-on-ubuntu-linux/](https://www.maketecheasier.com/play-hearthstone-on-ubuntu-linux/)
+[https://www.maketecheasier.com/play-hearthstone-on-ubuntu-linux/](https://www.maketecheasier.com/play-hearthstone-on-ubuntu-linux/)
 
-[^2]: [https://askubuntu.com/questions/755059/how-do-i-get-the-latest-version-of-winetricks-on-ubuntu](https://askubuntu.com/questions/755059/how-do-i-get-the-latest-version-of-winetricks-on-ubuntu)
+[https://askubuntu.com/questions/755059/how-do-i-get-the-latest-version-of-winetricks-on-ubuntu](https://askubuntu.com/questions/755059/how-do-i-get-the-latest-version-of-winetricks-on-ubuntu)
