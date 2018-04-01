@@ -107,7 +107,7 @@ After, it's necessary check "Install a Windows DLL" to install two important com
 
 ### Install Battle.net
 
-The easiest part is install Blizzard Battle.net and Hearthstone. Just download the Battle.net app and run by clicking on `exe` file. Follow instructions like in a Windows install, and no more problems after that. 
+The easiest part is install Blizzard Battle.net and Hearthstone. Just [download the Battle.net](https://us.battle.net/account/download/) and run by clicking on `exe` file. Follow instructions like in a Windows install, and no more problems after that. 
 
 ![screen_1](https://valdirsjr.github.io/assets/images/screen1.png)
 
