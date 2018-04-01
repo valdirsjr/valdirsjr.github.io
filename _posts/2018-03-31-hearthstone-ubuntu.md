@@ -5,11 +5,11 @@ comments: true
 description: "HearthStone on Ubuntu"
 keywords: "blizzard, ubuntu, hearthstone, install"
 ---
-## HearthStone on Ubuntu
 
 ![Hearthstone](https://valdirsjr.github.io/assets/images/hearthstone.jpg)
 
-Blizzard's [HearthStone](https://playhearthstone.com/) is probably the most successful computer card game ever made. But, like others games from Blizzard, this one also not run (native) on Linux. But it's possible play HearthStone on Linux (in my case, a laptop + Ubuntu 16.04), in a little bit tricky way, with Wine:
+Blizzard's [HearthStone](https://playhearthstone.com/) is probably the most successful computer card game ever made. Like others games from Blizzard, this one also not run (native) on Linux. But it's possible play HearthStone on Linux (in my case, a laptop + Ubuntu 16.04), in a little bit tricky way, with Wine:
+
 
 ### Wine
 
@@ -25,16 +25,20 @@ wine --version
 cd ~/Downloads
 wget -nc https://repos.wine-staging.com/wine/Release.key
 sudo apt-key add Release.key
+```
 
+```sh
 # Add repository and Install Wine
 sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
 sudo apt update
 sudo apt install --install-recommends winehq-staging
 ```
 
+
 ### Wine Configuration and Winetricks
 
 Winecfg and Winetricks are the tools for a correct Wine configuration. 
+
 
 #### Winecfg
 
@@ -45,13 +49,17 @@ winecfg
 In the window of Winecfg, I did some changes:
 
 ![winecfg_1](https://valdirsjr.github.io/assets/images/hs_winecfg_1.png)
+
 I changed the Windows version to 7 (mininal to run HearthStone)
 
 ![winecfg_2](https://valdirsjr.github.io/assets/images/hs_winecfg_2.png)
+
 I Checked CSMT, VAAPI and EAX options
 
 ![winecfg_3](https://valdirsjr.github.io/assets/images/hs_winecfg_3.png)
+
 Tab "Libraries", in the search box you can add "locationapi", edit and set as "disabled". The others "overrides" in this list will be automatically add by the Winetricks tool, in the next step.
+
 
 #### Winetricks
 
